@@ -1,0 +1,31 @@
+{
+  "name": "@dotcom-reliability-kit/example-serverless",
+  "version": "0.0.0",
+  "private": true,
+  "description": "An example Serverless application which uses Reliability Kit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Financial-Times/reliability-kit-example-serverless.git"
+  },
+  "homepage": "https://github.com/Financial-Times/reliability-kit-example-serverless#readme",
+  "bugs": "https://github.com/Financial-Times/reliability-kit-example-serverless/issues",
+  "license": "MIT",
+  "engines": {
+    "node": "14.x || 16.x || 18.x",
+    "npm": "7.x || 8.x || 9.x"
+  },
+  "scripts": {
+    "invoke": "./node_modules/.bin/serverless invoke local --function example --data '{\"status\": \"ok\"}'",
+    "invoke-questionable": "./node_modules/.bin/serverless invoke local --function example --data '{\"status\": \"questionable\"}'",
+    "invoke-bad": "./node_modules/.bin/serverless invoke local --function example --data '{\"status\": \"bad\"}'"
+  },
+  "dependencies": {
+    "@dotcom-reliability-kit/crash-handler": "^1.1.1",
+    "@dotcom-reliability-kit/errors": "^1.2.7",
+    "@dotcom-reliability-kit/log-error": "^1.5.1",
+    "@dotcom-reliability-kit/logger": "^1.0.2"
+  },
+  "devDependencies": {
+    "serverless": "^3.27.0"
+  }
+}
