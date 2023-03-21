@@ -20,7 +20,7 @@
     "invoke-bad": "./node_modules/.bin/serverless invoke local --function example --data '{\"status\": \"bad\"}'"
   },
   "dependencies": {
-    "@dotcom-reliability-kit/crash-handler": "^1.1.1",
+    "@dotcom-reliability-kit/crash-handler": "^1.1.2",
     "@dotcom-reliability-kit/errors": "^1.3.0",
     "@dotcom-reliability-kit/log-error": "^1.5.2",
     "@dotcom-reliability-kit/logger": "^1.0.3"
