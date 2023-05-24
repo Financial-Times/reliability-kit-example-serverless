@@ -26,6 +26,7 @@
     "@dotcom-reliability-kit/logger": "^2.2.2"
   },
   "devDependencies": {
+    "@dotcom-reliability-kit/eslint-config": "^2.0.0",
     "serverless": "^3.31.0"
   }
 }
