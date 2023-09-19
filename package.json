@@ -23,7 +23,7 @@
     "@dotcom-reliability-kit/crash-handler": "^3.0.1",
     "@dotcom-reliability-kit/errors": "^2.2.0",
     "@dotcom-reliability-kit/log-error": "^3.0.0",
-    "@dotcom-reliability-kit/logger": "^2.2.7"
+    "@dotcom-reliability-kit/logger": "^2.2.9"
   },
   "devDependencies": {
     "serverless": "^3.35.2"
