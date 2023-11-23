@@ -26,6 +26,6 @@
     "@dotcom-reliability-kit/logger": "^2.3.1"
   },
   "devDependencies": {
-    "serverless": "^3.37.0"
+    "serverless": "^3.38.0"
   }
 }
