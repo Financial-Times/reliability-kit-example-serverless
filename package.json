@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@dotcom-reliability-kit/crash-handler": "^3.0.9",
-    "@dotcom-reliability-kit/errors": "^2.2.0",
+    "@dotcom-reliability-kit/errors": "^3.0.0",
     "@dotcom-reliability-kit/log-error": "^3.0.0",
     "@dotcom-reliability-kit/logger": "^2.4.2"
   },
