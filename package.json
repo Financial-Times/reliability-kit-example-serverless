@@ -22,7 +22,7 @@
   "dependencies": {
     "@dotcom-reliability-kit/crash-handler": "^4.0.2",
     "@dotcom-reliability-kit/errors": "^3.0.1",
-    "@dotcom-reliability-kit/log-error": "^4.0.2",
+    "@dotcom-reliability-kit/log-error": "^4.0.3",
     "@dotcom-reliability-kit/logger": "^3.0.2"
   },
   "devDependencies": {
